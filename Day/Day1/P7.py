@@ -1,3 +1,3 @@
-def greet(nsme:str)->str:
+def greet(name:str)->str:
     return "Hello"+name
 
