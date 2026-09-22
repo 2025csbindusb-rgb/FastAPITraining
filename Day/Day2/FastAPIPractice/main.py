@@ -8,4 +8,9 @@ def home():
 def health():
     return {"status":"ok"}
 
+#Post request
+@app.post("/create")
+def create_something():
+    return {"Message":"Created"}
+
 
